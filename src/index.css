@@ -1,0 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", monospace;
+    text-align: center;
+    background: linear-gradient(89deg, rgb(194, 28, 164), rgb(124, 184, 198))
+}

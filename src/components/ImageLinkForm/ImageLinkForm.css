@@ -1,0 +1,15 @@
+.form{
+    width: 700px;
+}
+
+.form > input{
+    box-shadow: 0px 0px 14px black;
+    border: none;
+    outline: none;
+}
+
+.form > button {
+    border: none;
+    outline: none;
+    font-weight: 700;
+}
