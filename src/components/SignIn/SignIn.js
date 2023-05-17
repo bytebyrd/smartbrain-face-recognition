@@ -10,7 +10,7 @@ class SignIn extends Component {
     }
 
     signInUser = async (email, password) => {
-        const response = await fetch("http://localhost:3000/signin", {
+        const response = await fetch(`${process.env.SERVER_URL}/signin`, {
             headers: {
                 "Content-Type": "application/json"
             },

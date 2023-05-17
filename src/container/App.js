@@ -28,7 +28,7 @@ class App extends Component {
     }
 
     updateProfile = (id) => {
-        fetch("http://localhost:3000/image", {
+        fetch(`${process.env.SERVER_URL}/image`, {
             method: "put",
             headers: {
                 "Content-Type": "application/json"
@@ -78,7 +78,7 @@ class App extends Component {
     }
 
     predictImage(imageUrl) {
-        fetch("http://localhost:3000/image", {
+        fetch(`${process.env.SERVER_URL}/image`, {
             method: "post",
             headers: {
                 "Content-Type": "application/json"

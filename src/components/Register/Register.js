@@ -8,7 +8,7 @@ class Register extends Component {
     }
 
     onRegister = async (email, username, password) => {
-        const response = await fetch("http://localhost:3000/register", {
+        const response = await fetch(`${process.env.SERVER_URL}/register`, {
             headers: {
                 "Content-Type": "application/json"
             },
